@@ -7,6 +7,31 @@
 main {
     width: 70%;
     margin:  50px auto;
+    border: 1px solid purple;
+}
+
+a:link {
+    background-color: #AB30AB;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+}
+
+a:visited {
+    background-color: #FA932D;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
 }
 
 .green {
